@@ -1,0 +1,1006 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+nav img{
+    width: 50px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav li{
+    margin-right: 80px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    background-color: blueviolet;
+    padding: 5px 25px;
+    color: white;
+    text-decoration: none;
+}
+.section1{
+    display: flex; 
+    background-color: palevioletred;
+}
+.left h1{
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.left p{
+    padding-bottom: 20px;
+}
+.left{
+    margin-left: 90px;
+}
+.right img{
+    width: 400px;
+    height: 300px;
+    padding-top: 30px;
+    margin-left: 150px;
+    border: solid;border-color: white;border-radius: 10px;
+}
+.middle{
+    margin-left: 90px;
+    position: absolute;
+    top: 300px;
+    display: flex;
+}
+.a{
+    background-color: plum;
+    width: 120px;
+    height: 60px;
+    margin-right: 10px;
+}
+.b{
+    background-color: plum;
+    width: 120px;
+    height: 60px;
+    margin-right: 10px;
+}
+.c{
+    background-color: plum;
+    width: 120px;
+    height: 60px;
+}
+.section2{
+    display:flex ;
+    background-color: olive;
+}
+.left img{
+    width: 400px;
+    height: 250px;
+    margin-left: 90px;
+    padding-top: 60px;
+    margin-right: 170px;
+}
+.right h1{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.right p{
+    padding-bottom: 20px;
+}
+.right a{
+    margin-left: 20px;
+    text-decoration: none;
+    border: solid;
+    color: black;
+    padding: 5px 15px;
+}
+.section3{
+    display: flex;
+}
+.container3{
+    background-color: blueviolet;
+    height: 420px;
+}
+.east {
+    margin-left: 170px;
+}
+.east h1{
+        padding-top: 95px;
+        padding-bottom: 20px;
+}
+.west{
+    padding-top: 60px;
+    display: flex;
+}
+.m{
+    margin-right: 20px;
+    margin-left: 100px;
+}
+.n{
+    margin-right: 20px;
+}
+.o{
+    position: absolute;
+    top: 950px;
+    left: 670px;
+    height: 150px;
+}
+.p{
+    position: absolute;
+    top: 950px;
+    left: 870px;
+    height: 150px;
+}
+.section4 img{
+    height: 200px;
+    width: 300px;
+}
+.section4{
+    display: grid;
+    grid-template-columns: repeat(3,8fr);
+    margin-left: 120px;
+}
+.section4 a{
+    text-decoration: none;
+    border: solid 2px;
+    padding: 5px 15px;
+}
+.section4 p{
+    padding: 20px 30px;
+}
+.container4 h1{
+    margin-left: 600px;
+    font-weight: 900px;
+}
+.x{
+    padding-left: 470px;
+}
+.y{
+    padding-left: 550px;
+}
+.container4{
+    background-color: brown;
+}
+.second h1{
+    padding-top: 20px;
+    color: white;
+}
+.w{
+    padding-left: 530px;
+    margin-top: px;
+    color: white;
+}
+.z{
+    padding-left: 600px;
+    color: white;
+    margin-bottom: 30px;
+}
+.second{
+    background-color: black;
+    height: 200px;
+}
+.second a{
+    margin-left: 650px;
+}
+.container5 h1{
+    margin-left: 650px;
+    font-weight: 900px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.q{
+    padding-left: 470px;
+}
+.r{
+    padding-left: 550px;
+    margin-bottom: 20px;
+}
+.container6{
+    display: flex;
+    margin-top: 60px;
+    background-color: peru;height: 500px;
+    gap: 200px;
+}
+.sun{
+    margin-left: 120px;
+}
+.sun h1{
+    margin-bottom: 15px;
+    padding-top: 60px;
+}
+.sun p{
+    margin-bottom: 25px;
+}
+.moon{
+    background-color: black;
+    padding: 35px;
+    border-radius: 15px;
+}
+.me{
+    margin-bottom: 30px;
+    background-color: brown;
+    margin-top: 40px;
+    padding: 10px;
+}
+.and{
+    margin-bottom: 30px;
+    background-color: brown;
+    padding: 10px;
+}
+.you{
+    background-color: brown;
+    padding: 10px;
+}
+.foot{
+    margin-left: 400px;
+}
+.foot h1{
+    margin-left: 280px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.one{
+    padding-left: 80px;
+}
+.two{
+    padding-left: 130px;
+}
+.three{
+    padding-left: 170px;
+}
+.four{
+    padding-left: 180px;
+}
+.foot h2{
+    margin-left: 280px;
+    padding-top: 20px;
+    padding-bottom: 1opx;
+}
+.footer{
+    margin-top: 80px;
+    background-color:red;
+}
+
+
+@media( max-width: 425px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 30px;
+    }
+    nav img{
+        width: 50px;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+    }
+    nav li{
+        margin-right: 60px;
+        display: none;
+
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+    }
+    .main{
+        background-color: blueviolet;
+        padding: 5px 25px;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* end here */
+    .section1{
+        display: block; 
+        background-color: palevioletred;
+        height: 550px;
+    }
+    .left h1{
+        padding-bottom: 10px;
+        padding-top: 20px;
+        font-size: 15px;
+        margin-right: 50px;
+    }
+    .left p{
+        padding-bottom: 20px;
+    }
+    .left{
+        margin-left: 50px;
+        display: block;
+    }
+    .right img{
+        width: 150px;
+        height: 200px;
+        padding-top: 10px;
+        border: none;
+    }
+    .middle{
+        margin-left: 50px;
+        position: absolute;
+        top: 450px;
+        display: flex;
+    }
+    .a{
+        background-color: plum;
+        width: 100px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .b{
+        background-color: plum;
+        width: 100px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .c{
+        background-color: plum;
+        width: 100px;
+        height: 60px;
+    }
+
+    /* ends here */
+    .section2{
+        display:block ;
+        background-color: olive;height: 700px;
+    }
+    .left img{
+        width: 250px;
+        height: 300px;
+        margin-left: 50px;
+        padding-top: 60px;
+        margin-right: 170px;
+    }
+    .right h1{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 100px;
+    }
+    .right p{
+        padding-bottom: 20px;
+        margin-left: 100px;
+    }
+    .right a{
+        margin-left: 80px;
+        text-decoration: none;
+        border: solid;
+        color: black;
+        padding: 5px 15px;
+    }
+    /* ends here */
+
+    .section3{
+        display: block;
+    }
+    .container3{
+        background-color: blueviolet;
+        height: 600px;
+    }
+    .east {
+        margin-left: 100px;
+    }
+    .east h1{
+            padding-top: 20px;
+            padding-bottom: 20px;
+    }
+    .west{
+        padding-top: 60px;
+        display: flex;
+    }
+    .m{
+        margin-right: 20px;
+        margin-left: 100px;
+    }
+    .n{
+        margin-right: 20px;
+    }
+    .o{
+        position: absolute;
+        top: 1740px;
+        left: 100px;
+        height: 130px;
+        font-size: 13px;
+    }
+    .p{
+        position: absolute;
+        top: 1740px;
+        left: 260px;
+        height: 130px;
+        font-size: 13px;
+    }
+
+    /* ends here */
+    .section4{
+        display: block;
+        margin-left: 120px;
+    }
+    .section4 a{
+        text-decoration: none;
+        border: solid 2px;
+        padding: 5px 15px;
+    }
+    .section4 p{
+        padding: 20px 30px;
+    }
+    .container4 h1{
+        margin-left: 180px;
+        font-weight: 900px;
+    }
+    .x{
+        padding-left: 10px;
+    }
+    .y{
+        padding-left: 100px;
+    }
+    .container4{
+        background-color: brown;
+    }
+    .chi{
+        position: absolute;
+        top: 2750px;
+        left: 70px;
+    }
+    .chis{
+        position: absolute;
+        top: 2370px;
+        left: 70px;
+    }
+    .chiso{
+        position: absolute;
+        top: 1970px;
+        left: 70px;
+    }
+    .ez{
+        position: absolute;
+        top: 2190px;
+        left: 70px;
+    }
+    .eze{
+        position: absolute;
+        top: 2960px;
+        left: 70px;
+    }
+    .ezek{
+        position: absolute;
+        top: 2580px;
+        left: 70px;
+    }
+    .second h1{
+        font-size: 20px;
+        color: white;
+        margin-top: 1200px;
+        margin-left: 90px;
+    }
+    .w{
+        padding-left: 40px;
+        margin-top: px;
+        color: white;
+        font-size: 13px;
+    }
+    .z{
+        padding-left: 70px;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .second{
+        background-color: black;
+        height: 170px;
+    }
+    .second a{
+        margin-left: 110px;
+    }
+
+    /* ends here */
+
+    .container5 h1{
+        margin-left: 190px;
+        font-weight: 900px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .q{
+        padding-left: 20px;
+    }
+    .r{
+        padding-left: 90px;
+        margin-bottom: 20px;
+    }
+    .oz{
+        position: absolute;
+        top: 3450px;
+        left: 90px;
+    }
+    .ozi{
+        position: absolute;
+        top: 3800px;
+        left: 90px;
+    }
+    .ozio{
+        position: absolute;
+        top: 4150px;
+        left: 90px;
+    }
+    .ud{
+        position: absolute;
+        top: 3990px;
+        left: 90px;
+    }
+    .ude{
+        position: absolute;
+        top: 4340px;
+        left: 90px;
+    }
+    .udem{
+        position: absolute;
+        top: 3650px;
+        left: 90px;
+    }
+
+    /* ends here */
+
+    .container6{
+        display: block;
+        background-color: peru;height: 500px;
+        gap: 200px;
+        margin-top: 1100px;
+    }
+    .sun{
+        margin-left: 120px;
+    }
+    .sun h1{
+        margin-bottom: 15px;
+        padding-top: 60px;
+    }
+    .sun p{
+        margin-bottom: 25px;
+    }
+    .moon{
+        background-color: black;
+        padding: 35px;
+        border-radius: 15px;
+        margin-top: 30px;
+    }
+    .me{
+        margin-bottom: 30px;
+        background-color: brown;
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .and{
+        margin-bottom: 30px;
+        background-color: brown;
+        padding: 10px;
+    }
+    .you{
+        background-color: brown;
+        padding: 10px;
+    }
+
+    /* ends here */
+
+
+    .foot{
+        margin-left: 70px;
+        margin-top: 350px;
+    }
+    .foot h1{
+        margin-left: 80px;
+    }
+    .one{
+        padding-left: 0px;
+        font-size: 9px;
+    }
+    .two{
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .three{
+        padding-left: 0px;
+        font-size: 13px;
+    }
+    .four{
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    .foot h2{
+        margin-left: 80px;
+        padding-top: 20px;
+        padding-bottom: 1opx;
+    }
+    .foote{
+        margin-left: 50px;
+    }
+    .foote h1{
+        margin-left: 2px;
+        margin-top: 20px;
+    }
+    .footer{
+        margin-top: 80px;
+        background-color:red;
+    }
+    
+}
+
+
+
+/* ends here */
+
+
+
+@media( max-width: 375px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 30px;
+    }
+    nav img{
+        width: 50px;
+    }
+    nav ul{
+        display: flex;
+        list-style-type: none;
+    }
+    nav li{
+        margin-right: 60px;
+        display: none;
+
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+    }
+    .main{
+        background-color: blueviolet;
+        padding: 5px 25px;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* end here */
+    .section1{
+        display: block; 
+        background-color: palevioletred;
+        height: 550px;
+        width: 430px;
+    }
+    .left h1{
+        padding-bottom: 10px;
+        padding-top: 20px;
+        font-size: 15px;
+        margin-right: 50px;
+    }
+    .left p{
+        padding-bottom: 20px;
+    }
+    .left{
+        margin-left: 50px;
+        display: block;
+    }
+    .right img{
+        width: 150px;
+        height: 200px;
+        padding-top: 10px;
+        border: none;
+    }
+    .middle{
+        margin-left: 50px;
+        position: absolute;
+        top: 450px;
+        display: flex;
+    }
+    .a{
+        background-color: plum;
+        width: 100px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .b{
+        background-color: plum;
+        width: 100px;
+        height: 60px;
+        margin-right: 10px;
+    }
+    .c{
+        background-color: plum;
+        width: 100px;
+        height: 60px;
+    }
+
+    /* ends here */
+    .section2{
+        display:block ;
+        background-color: olive;height: 700px;
+        width: 430px;
+    }
+    .left img{
+        width: 250px;
+        height: 300px;
+        margin-left: 20px;
+        padding-top: 60px;
+        margin-right: 170px;
+    }
+    .right h1{
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-left: 70px;
+    }
+    .right p{
+        padding-bottom: 20px;
+        margin-left: 70px;
+    }
+    .right a{
+        margin-left: 50px;
+        text-decoration: none;
+        border: solid;
+        color: black;
+        padding: 5px 15px;
+    }
+    /* ends here */
+
+    .section3{
+        display: block;
+    }
+    .container3{
+        background-color: blueviolet;
+        height: 600px;
+        width: 430px;
+    }
+    .east {
+        margin-left: 50px;
+    }
+    .east h1{
+            padding-top: 20px;
+            padding-bottom: 20px;
+    }
+    .west{
+        padding-top: 60px;
+        display: flex;
+    }
+    .m{
+        margin-right: 20px;
+        margin-left: 50px;
+    }
+    .n{
+        margin-right: 40px;
+    }
+    .o{
+        position: absolute;
+        top: 1700px;
+        left: 50px;
+        height: 130px;
+        font-size: 15px;
+    }
+    .p{
+        position: absolute;
+        top: 1700px;
+        left: 235px;
+        height: 130px;
+        font-size: 15px;
+    }
+
+    /* ends here */
+    .section4{
+        display: block;
+        margin-left: 100px;
+    }
+    .section4 a{
+        text-decoration: none;
+        border: solid 2px;
+        padding: 5px 15px;
+    }
+    .section4 p{
+        padding: 20px 30px;
+    }
+    .container4 h1{
+        margin-left: 130px;
+        font-weight: 900px;
+    }
+    .x{
+        padding-left: 15px;
+        font-size: 13px;
+    }
+    .y{
+        padding-left: 70px;
+    }
+    .container4{
+        background-color: brown;
+        width: 430px;
+    }
+    .chi{
+        position: absolute;
+        top: 2750px;
+        left: 40px;
+    }
+    .chis{
+        position: absolute;
+        top: 2370px;
+        left: 40px;
+    }
+    .chiso{
+        position: absolute;
+        top: 1970px;
+        left: 40px;
+    }
+    .ez{
+        position: absolute;
+        top: 2190px;
+        left: 70px;
+    }
+    .eze{
+        position: absolute;
+        top: 2960px;
+        left: 70px;
+    }
+    .ezek{
+        position: absolute;
+        top: 2580px;
+        left: 70px;
+    }
+    .second h1{
+        font-size: 20px;
+        color: white;
+        margin-top: 1200px;
+        margin-left: 90px;
+    }
+    .w{
+        padding-left: 40px;
+        margin-top: px;
+        color: white;
+        font-size: 13px;
+    }
+    .z{
+        padding-left: 70px;
+        color: white;
+        margin-bottom: 30px;
+    }
+    .second{
+        background-color: black;
+        height: 170px;
+        width: 500px;
+    }
+    .second a{
+        margin-left: 110px;
+    }
+
+    /* ends here */
+
+    .container5 h1{
+        margin-left: 190px;
+        font-weight: 900px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .q{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .r{
+        padding-left: 70px;
+        margin-bottom: 20px;
+    }
+    .oz{
+        position: absolute;
+        top: 3450px;
+        left: 70px;
+    }
+    .ozi{
+        position: absolute;
+        top: 3800px;
+        left: 70px;
+    }
+    .ozio{
+        position: absolute;
+        top: 4150px;
+        left: 70px;
+    }
+    .ud{
+        position: absolute;
+        top: 3990px;
+        left: 90px;
+    }
+    .ude{
+        position: absolute;
+        top: 4340px;
+        left: 90px;
+    }
+    .udem{
+        position: absolute;
+        top: 3650px;
+        left: 90px;
+    }
+
+    /* ends here */
+
+    .container6{
+        display: block;
+        background-color: peru;height: 500px;
+        width: 430px;
+        gap: 200px;
+        margin-top: 1100px;
+    }
+    .sun{
+        margin-left: 120px;
+    }
+    .sun h1{
+        margin-bottom: 15px;
+        padding-top: 60px;
+    }
+    .sun p{
+        margin-bottom: 25px;
+    }
+    .moon{
+        background-color: black;
+        padding: 35px;
+        border-radius: 15px;
+        margin-top: 30px;
+    }
+    .me{
+        margin-bottom: 30px;
+        background-color: brown;
+        margin-top: 40px;
+        padding: 10px;
+    }
+    .and{
+        margin-bottom: 30px;
+        background-color: brown;
+        padding: 10px;
+    }
+    .you{
+        background-color: brown;
+        padding: 10px;
+    }
+
+    /* ends here */
+
+
+    .foot{
+        margin-left: 70px;
+        margin-top: 350px;
+    }
+    .foot h1{
+        margin-left: 80px;
+    }
+    .one{
+        padding-left: 0px;
+        font-size: 9px;
+    }
+    .two{
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    .three{
+        padding-left: 0px;
+        font-size: 13px;
+    }
+    .four{
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    .foot h2{
+        margin-left: 80px;
+        padding-top: 20px;
+        padding-bottom: 1opx;
+    }
+    .foote{
+        margin-left: 50px;
+    }
+    .foote h1{
+        margin-left: 2px;
+        margin-top: 20px;
+    }
+    .footer{
+        margin-top: 50px;
+        background-color:red;
+        width: 430px;
+    }
+    
+}
